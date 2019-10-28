@@ -1,0 +1,19 @@
+Species,Sp,Onto,Color,Number,Body length (mm),Dia,Wo,Freq,Comp,Citation,upper avg,upper max,Q,COT,Work
+Ascidia_sidneyensis,A.sidneyensis,adult,1,1,20,6E-04,0.50,0.666666666666667,0.5,Kalk 1970,0.019108992,0.037663557,0.002277042,1310000.00,2500
+Ciona_savignyi,C.savignyi adult,adult,1,2,30,1.618132863E-03,1.20,0.5349264,0.566645045,Waldrop pericardium,0.027981775,0.049553182,0.002727436,1210000.00,1503.4
+Corella_willmeriana,Co.willmeriana,adult,1,3,10,6.63E-04,0.50,0.55,0.64,video,0.051273216,0.089623541,0.0044627,1410000.00,2293
+Mogula_robusta,M.robusta,adult,1,4,60,3.7E-03,1.67,0.2,0.64,video,0.037655495,0.061860222,0.002486467,475000.00,462.93
+Corella_inflata,Co.inflata,adult,1,5,20,1.97E-03,1.67,0.7,0.7,Konrad 2016,0.063582309,0.113212809,0.008170441,1990000.00,1778.9
+Perophora_viridis,P.viridis,adult,1,6,1.36,1.02E-04,0.09,0.69,0.7255,video,0.073981322,0.126821175,0.008708171,7530000.00,11140
+Ecteinascidia_turbinata,E.turbinata,adult,1,7,5.2,3.81E-04,0.26,0.44,0.759,video,0.113839597,0.169827238,0.009493305,2820000.00,5214.3
+Botryllus_schlosseri,Boytrillus sp.,adult,1,8,0.75,4.5E-05,0.06,1.73,0.681,video,0.063580826,0.118352808,0.008601668,18600000.00,43891
+Thalia_democratica,T.democratica,adult,2,9,20,1E-03,1.54,2.33333333333333,0.99,"Heron 1973,",0.346932977,0.593156636,0.036725347,21000000.00,41497
+Molgula_occidentalis,M.occidentalis,adult,1,10,76,3.49E-04,0.22,0.39,0.99,video,0.275697321,0.427297056,0.020892846,8820000.00,16450
+Styela_plicata,S.plicata,adult,1,11,40,1E-03,0.57,0.266,0.412,video,0.010985096,0.020008551,0.000431366,302000.00,699.16
+Gallus_gallus,G.gallus,embryo stage 18,3,12,5,1.60E-04,0.25,2.43333333333333,0.6375,"Hu and Clark 1989, Midgett et al. 2014",0.106714211,0.18264766,0.012062561,49900000.00,104000.00
+Danio_rerio,D.rerio,embryo,3,13,1,5E-05,0.08,2.3,0.9,Forouhar 2006,0.147788554,0.251968712,0.022554834,74600000.00,194000.00
+Doliolum_nationalis,Do.nationalis,adult,2,14,2,3.4E-03,3.44,1,0.99,Bone 1997,0.275092006,0.426293314,0.038146646,59300000.00,76863
+Ciona_robusta,C.robusta,adult,1,15,,,0.00,,,video,,,,,
+Clavelina_picta,Cl.picta,adult,1,16,,,0.00,,,Miller youtube https://www.youtube.com/watch?v=Gk-yPmjGxpA ,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
