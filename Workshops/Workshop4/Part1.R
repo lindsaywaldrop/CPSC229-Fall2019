@@ -22,7 +22,7 @@ run<-c(3116,3161,3163,3118)
 
 for(i in 1:length(run)){
   name<-paste('run',run[i],'_hermithair.csv',sep="")
-  data<-read.csv(name,header=FALSE)
+  data<-read.csv(name)
   assign(paste('run,run[i],sep=''),data)'
 }
 
@@ -33,16 +33,24 @@ run3163cols<-run3163$V3/max(run3163$V3)
 run3118cols<-run3118$V3/max(run3118$V3)
 
 theme_set(theme_bw())
-p1<-qplot(x=run3116$V1,y=run3116$V2,color=run3116cols,xlab="X Position",ylab="Y Position")+theme(legend.position='none') +scale_colour_gradient(high="yellow",low="blue")
-p2<-qplot(x=run3161$V1,y=run3161$V2,color=run3161cols,xlab="X Position",ylab="Y Position")+theme(legend.position='none') +scale_colour_gradient(high="yellow",low="blue")
-p3<-qplot(x=run3163$V1,y=run3163$V2,color=run3163cols,xlab="X Position",ylab="Y Position")+theme(legend.position='none'))+scale_colour_gradient(high="yellow",low="blue")
-p4<-qplot(x=run3118$V1,y=run3118$V2,color=run3118cols,xlab="X Position",ylab="Y Position")+theme(legend.position='none') +scale_colour_gradient(high="yellow",low="blue")
+p1<-qplot(x=run3116$V1,y=run3116$V2,color=run3116cols,
+          xlab="X Position",ylab="Y Position")+theme(legend.position='none') +
+  scale_colour_gradient(high="yellow",low="blue")
+p2<-qplot(x=run3161$V1,y=run3161$V2,color=run3161cols,
+          xlab="X Position",ylab="Y Position")+theme(legend.position='none') +
+  scale_colour_gradient(high="yellow",low="blue")
+p3<-qplot(x=run3163$V1,y=run3163$V2,color=run3163cols,
+          xlab="X Position",ylab="Y Position")+theme(legend.position='none')) +
+  scale_colour_gradient(high="yellow",low="blue")
+p4<-qplot(x=run3118$V1,y=run3118$V2,color=run3118cols,
+          xlab="X Position",ylab="Y Position")+theme(legend.position='none') +
+  scale_colour_gradient(high="yellow",low="blue")
 
 
 
 pdf("hairs_hermit.eps",width=7*0.85,height=6.5*0.85) # For an PDF.
 
-plot_grid(p1,p2,p3,p4,labels=c("A","B","C","D"),label_size=12)
+  plot_grid(p1,p2,p3,p4,labels=c("A","B","C","D"),label_size=12)
 
 dev.off()
 
